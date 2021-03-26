@@ -1,0 +1,83 @@
+@media (min-width: 300px) and (max-width: 576px){
+    .header{
+        max-width: 100%;
+    }
+    .mycontainer{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .site-logo{
+        margin: 0;
+        width: 150px;
+    }
+    .logo-like, .logo-burger{
+        width: 80px;
+        height: auto;
+    }
+    .logo-burger{
+        height: 60px;
+    }
+    .hidden{
+        height: 86px;
+    }
+    /* feature-heading */
+    .food-title, .phone-number{
+        font-size: 1rem;
+    }
+    /* cards-section */
+    .mycontainer-cards{
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    .cards-list{
+        grid-template-columns: auto auto;
+        gap: 10px;
+        justify-content: center;
+    }
+    .card-item{
+        padding: 15px;
+    }
+    .card-img{
+        max-width: 500px;
+        width: 100%;
+        /* height: auto; */
+        margin-bottom: 10px;
+    }
+    .aystea{
+        width: 80px;
+        margin-bottom: 10px;
+    }
+    .card-title{
+        font-size: 12px;
+        text-align: center;
+    }
+    .card-info{
+        font-size: 10px;
+    }
+    .card-cost{
+        font-size: 14px;
+    }
+    /* footer */
+    .footer-mycontainer{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .connect-info-list{
+        grid-template-columns: auto auto;
+        gap: 10px;
+        justify-content: center;
+    }
+    .info-item{
+        padding: 10px;
+    }
+    .info-title{
+        font-size: 12px;
+    }
+    .info-item > p{
+        font-size: 12px;
+    }
+    .logo-info{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+}

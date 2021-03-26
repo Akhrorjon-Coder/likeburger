@@ -1,0 +1,201 @@
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    color: #FFA100;
+    font-weight: bold;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.mycontainer{
+    max-width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+.hidden{
+    width: 100%;
+    height: 120px;
+}
+.bg-fon{
+    background-color: #991B0F;
+}
+.site-nav-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.site-logo{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+.logo-like{
+    margin-right: 5px;
+}
+
+.menu a{
+    font-size: 15px;
+    color: #FFA100 !important;
+    font-weight: 700;
+}
+.menu a:hover{
+    color: white !important;
+}
+
+/* feature-section */
+.feature-heading{
+    background-color: #E67C00;
+    
+    /* line-height: 80px; */
+}
+.heading-mycontainer{
+    display: flex;
+    height: 80px;
+    font-weight: 700;
+    color: #991B0F;
+    align-items: center;
+    justify-content: space-between;
+}
+.food-title{
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.phone-number{
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+}
+
+/* cards-section */
+.mycontainer-cards{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.cards-list{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    list-style: none;
+}
+.card-item{
+    padding: 20px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    border: 1.5px solid #FFA100;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #FFA100 inset;
+}
+.card-img{
+    width: 200px;
+    height: 150px;
+    align-self: center;
+    margin-bottom: 50px;
+}
+.card-title{
+    margin: 0;
+    margin-bottom: 13px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #991B0F;
+    align-self: center;
+}
+.card-info{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px; 
+    align-self: center;
+    text-align: center;
+}
+.card-cost{
+    align-self: flex-end;
+    margin-top: auto;
+    font-size: 17px;
+    font-weight: bold;
+    color: #991B0F;
+}
+
+/* footer */
+.footer-mycontainer{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.connect-info-list{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    list-style: none;
+}
+.info-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1.5px solid #FFA100;
+    box-shadow: 0px 0px 15px #ffa100 inset;
+}
+.info-title{
+    margin: 0;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #991B0F;
+    margin-bottom: 15px;
+}
+.footer-divider{
+    margin: 0;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 15px;
+    background-color: #FFA100;
+}
+.info-item > p{
+    font-size: 22px;
+    font-weight: bold;
+    color: #991B0F;
+    text-align: center;
+}
+.info-item > p > span{
+    margin-right: 10px;
+}
+.logo-info{
+    margin-top: auto;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #991B0F;
+    padding-bottom: 50px;
+}
+.aystea{
+    width: 80px;
+    /* margin-bottom: 0; */
+}
