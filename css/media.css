@@ -21,7 +21,7 @@
         height: 86px;
     }
     /* feature-heading */
-    .food-title, .phone-number{
+    .food-title, .phone-number a{
         font-size: 1rem;
     }
     /* cards-section */
