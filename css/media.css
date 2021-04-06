@@ -72,7 +72,7 @@
     .info-title{
         font-size: 12px;
     }
-    .info-item > p{
+    .info-item > p,a{
         font-size: 12px;
     }
     .logo-info{

@@ -180,7 +180,7 @@ header{
     margin-bottom: 15px;
     background-color: #FFA100;
 }
-.info-item > p{
+.info-item > p , a{
     font-size: 22px;
     font-weight: bold;
     color: #991B0F;
@@ -188,6 +188,9 @@ header{
 }
 .info-item > p > span{
     margin-right: 10px;
+}
+.info-item .phone a:hover{
+    color: #991B0F;
 }
 .logo-info{
     margin-top: auto;
