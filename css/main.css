@@ -80,6 +80,8 @@ header{
 .phone-number a{
     margin: 0;
     padding: 0;
+    display: block;
+    padding-top: 15px;
     font-size: 1.8rem;
     text-decoration: none;
     color: #991B0F;
